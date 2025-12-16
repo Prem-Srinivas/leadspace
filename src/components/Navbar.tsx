@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import logo from "@/assets/leadspace-logo.jpg";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -29,11 +30,9 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <motion.a
           href="#home"
-          className="text-2xl font-display font-bold tracking-tight"
           whileHover={{ scale: 1.02 }}
         >
-          <span className="text-foreground">LEAD</span>
-          <span className="text-gradient">SPACE</span>
+          <img src={logo} alt="LeadSpace" className="h-9 w-auto rounded-md" />
         </motion.a>
 
         <div className="hidden md:flex items-center gap-8">

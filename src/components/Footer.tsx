@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/leadspace-logo.jpg";
 
 const footerLinks = {
   services: ["Billboards", "Metro Pillars", "Bus Shelters", "Digital Screens"],
@@ -13,9 +14,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <a href="#home" className="text-2xl font-display font-bold mb-4 block">
-              <span className="text-foreground">LEAD</span>
-              <span className="text-gradient">SPACE</span>
+            <a href="#home" className="inline-block mb-4">
+              <img src={logo} alt="LeadSpace" className="h-9 w-auto rounded-md" />
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
               India's leading outdoor advertising partner. Strategic placements for maximum brand impact.

@@ -32,7 +32,7 @@ export const Navbar = () => {
           href="#home"
           whileHover={{ scale: 1.02 }}
         >
-          <img src={logo} alt="LeadSpace" className="h-12 w-auto rounded-md" />
+          <img src={logo} alt="LeadSpace" className="h-16 w-auto rounded-md" />
         </motion.a>
 
         <div className="hidden md:flex items-center gap-8">

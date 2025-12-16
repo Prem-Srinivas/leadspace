@@ -15,7 +15,7 @@ export const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <a href="#home" className="inline-block mb-4">
-              <img src={logo} alt="LeadSpace" className="h-12 w-auto rounded-md" />
+              <img src={logo} alt="LeadSpace" className="h-16 w-auto rounded-md" />
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
               India's leading outdoor advertising partner. Strategic placements for maximum brand impact.

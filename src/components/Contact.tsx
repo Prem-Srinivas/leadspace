@@ -4,9 +4,9 @@ import { Send, Phone, Mail, MapPin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+91 98765 43210" },
-  { icon: Mail, label: "Email", value: "hello@leadspace.in" },
-  { icon: MapPin, label: "Location", value: "Mumbai, India" },
+  { icon: Phone, label: "Phone", value: "+91-7396001111" },
+  { icon: Mail, label: "Email", value: "info@leadspace.in" },
+  { icon: MapPin, label: "Location", value: "3rd Floor, Mallesh Yadav Building, Plot No 797 & 798, 100 Feet Rd, Ayyappa Society, Mega Hills, Madhapur, Hyderabad, Telangana 500081" },
 ];
 
 export const Contact = () => {
